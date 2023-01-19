@@ -2,7 +2,7 @@
 
 ❤🧡💛💚💙💜
 
-Vee is a simple CLI script for installing packages via GitHub and other generic sources. It essentially combines the process of downlading and then installing a package into a one, tiny command. 
+Vee is a simple CLI script for installing packages via GitHub and other generic sources. It essentially combines the process of downloading and then installing a package into a one, tiny command. 
 
 ```sh
 vee [owner]/[package]
