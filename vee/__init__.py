@@ -33,8 +33,7 @@ def vee(owner, package):
         print(f'[Vee]    successfully installed {package} 🥳.')
 
 
-if __name__ == '__main__':
-	
+def main():
         try:
                 owner, package = sys.argv[1].split('/')
 
@@ -43,3 +42,7 @@ if __name__ == '__main__':
                 exit(1)
 
         vee(owner, package)
+
+
+if __name__ == '__main__':
+	main()
