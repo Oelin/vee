@@ -14,5 +14,5 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 
-[project.scripts]
-vee = "vee.vee"
+[tool.poetry.scripts]
+vee = 'vee:main'
